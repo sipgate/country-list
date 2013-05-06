@@ -1,5 +1,5 @@
 {
-    "name": "umpirsky/country-list",
+    "name": "sipgate/country-list",
     "type": "library",
     "description": "List of all countries with names and ISO 3166-1 codes in all languages and data formats.",
     "license": "MIT",
@@ -7,6 +7,10 @@
         {
             "name": "Саша Стаменковић",
             "email": "umpirsky@gmail.com"
+        },
+        {
+            "name": "Stefan Lange-Hegermann",
+            "email": "lange-hegermann@sipgate.de"
         }
     ],
     "repositories": [
@@ -18,7 +22,7 @@
     "require": {
         "php": ">=5.3.2"
     },
-    "require-dev": {   
+    "require-dev": {
         "symfony/class-loader":         "2.1.*",
         "symfony/console":              "2.1.*",
         "symfony/filesystem":           "2.1.*",
